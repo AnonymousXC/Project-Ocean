@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/backend/:path*",
+      "destination": "http://16.170.168.163:9000/backend/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "http://16.170.168.163:9000/api/:path*"
+    },
+    {
+      "source": "/datasets/:path*",
+      "destination": "http://16.170.168.163:9000/datasets/:path*"
+    }
+  ]
+}
